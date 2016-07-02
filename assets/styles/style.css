@@ -1,0 +1,79 @@
+img { 
+    display: inline-block;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(50, 255, 50, 0.1);
+    text-align: center;
+    width: calc(100%);
+    height: calc(100%);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+div {
+    /*background-color: rgba(25, 255, 75, 0.1);*/
+    text-align: center;
+}
+
+div.nopadding {
+    display: block;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.stretch {
+    display: block;
+    width: 100%;
+    /*width: calc(100%);*/
+    height: calc(100%);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    background-color: rgba(12,13,14,0.86);
+}
+
+section.introduction{
+    background-color: aqua;
+    width: calc(100%);
+    height: calc(100%);
+}
+
+p {
+    /*background-color: rgba(255, 60, 75, 0.1);*/
+    text-align: center;
+}
+
+h1.center {
+    color: navy;
+    text-align: center;
+    margin-left: 20px;
+}
+
+h2 {
+    /*background-color: rgba(255, 255, 75, 0.1);*/
+    color: darkred;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+h3 {
+    /*background-color: rgba(255, 255, 75, 0.1);*/
+    color: navy;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+p {
+    background-clip:content-box;
+    background-image: url("../photos/background/background1.jpg");
+    /*background-color: rgba(255, 255, 75, 0.1);*/
+    color: darkorange;
+    text-align: center;
+    margin-left: 20px;
+}
