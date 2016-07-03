@@ -37,7 +37,7 @@ h1.linearHeaderTransparent,h2.linearHeaderTransparent
 }
 
 
-div.linearHeader0
+div.linearHeaderExowar
 {
     width: 100%;
     background-image: url("../photos/projects/exowar/exowar.png");
@@ -45,23 +45,55 @@ div.linearHeader0
     text-align: center;
     background-size: cover;
     position: relative;
+    vertical-align: middle;
 }
-h1.linearHeader0,h2.linearHeader0
+h1.linearHeaderExowar,h2.linearHeaderExowar
 {
-    color: lawngreen;
+    color: darkgray;
+}
+
+div.linearHeaderMasterOfTyping
+{
+    width: 100%;
+    background-image: url("../photos/projects/masteroftyping/masteroftyping.png");
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    vertical-align: middle;
+}
+h1.linearHeaderMasterOfTyping,h2.linearHeaderMasterOfTyping
+{
+    color: darkgray;
+}
+
+div.linearHeaderWizzardSwipe
+{
+    width: 100%;
+    background-image: url("../photos/projects/wizzardswipe/1.png");
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    vertical-align: middle;
+}
+h1.linearHeaderWizzardSwipe,h2.linearHeaderWizzardSwipe
+{
+    color: darkgray;
 }
 
 div.linearHeader1
 {
     width: 100%;
-    background-color: lawngreen;
+    background-color: darkgray;
     display: inline-block;
     text-align: center;
     position: relative;
+    vertical-align: middle;
 }
-h1.linearHeader1,h2.linearHeader0
+h1.linearHeader1,h2.linearHeaderExowar
 {
-    color: cornflowerblue;
+    color: darkslategray;
 }
 
 div.linearHeader2
@@ -71,46 +103,50 @@ div.linearHeader2
     display: inline-block;
     text-align: center;
     position: relative;
+    vertical-align: middle;
 }
-h1.linearHeader2,h2.linearHeader0
+h1.linearHeader2,h2.linearHeaderExowar
 {
-    color: violet;
+    color: darkslategray;
 }
 
 
 div.linearHeader3
 {
     width: 100%;
-    background-color: violet;
+    background-color: brown;
     display: inline-block;
     text-align: center;
     position: relative;
+    vertical-align: middle;
 }
-h1.linearHeader3,h2.linearHeader0
+h1.linearHeader3,h2.linearHeaderExowar
 {
-    color: brown;
+    color: darksalmon;
 }
 
 div.linearHeader4
 {
     width: 100%;
-    background-color: brown;
+    background-color: darksalmon;
     display: inline-block;
     text-align: center;
     position: relative;
+    vertical-align: middle;
 }
-h1.linearHeader4,h2.linearHeader0
+h1.linearHeader4,h2.linearHeaderExowar
 {
-    color: violet;
+    color: lightgray;
 }
 
 div.linearHeader5
 {
     width: 100%;
-    background-color: deepskyblue;
+    background-color: lightgray;
     display: inline-block;
     text-align: center;
     position: relative;
+    vertical-align: middle;
 }
 h1.linearHeader5,h2.linearHeader5
 {
@@ -122,20 +158,22 @@ image {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    vertical-align: middle;
 }
 
 p.linear{
     color: lightgray;
     display: inline-block;
     text-align: center;
+    vertical-align: middle;
 }
 
 p{
-    color: lightgray;
+    color: lightslategray;
 }
 
 #container {height: 100%; width:100%; font-size: 0;}
 #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 24px;}
-#left {width: 25%; background: transparent;}
-#middle {width: 25%; background: transparent;}
-#right {width: 25%; background: transparent;}
+#left {width: 25%; vertical-align: middle; background: transparent;}
+#middle {width: 25%; vertical-align: middle; background: transparent;}
+#right {width: 25%; vertical-align: middle; background: transparent;}
