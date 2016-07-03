@@ -1,79 +1,141 @@
-img { 
+body,html
+{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: url("../photos/background/background1.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+}
+
+.LI-profile-badge
+{
+    display: inline-block;
+}
+
+div.linear
+{
     display: inline-block;
     text-align: center;
 }
 
-body {
-    background-color: rgba(50, 255, 50, 0.1);
-    text-align: center;
-    width: calc(100%);
-    height: calc(100%);
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;
-    background-color: aqua;
-}
 
-div {
-    /*background-color: rgba(25, 255, 75, 0.1);*/
-    text-align: center;
-}
-
-div.nopadding {
-    display: block;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.stretch {
-    display: block;
+div.linearHeaderTransparent
+{
     width: 100%;
-    /*width: calc(100%);*/
-    height: calc(100%);
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;
-    background-color: rgba(12,13,14,0.86);
+    display: inline-block;
+    text-align: center;
+}
+h1.linearHeaderTransparent,h2.linearHeaderTransparent
+{
+    color: lightgray;
 }
 
-section.introduction{
-    background-color: aqua;
-    width: calc(100%);
-    height: calc(100%);
+
+div.linearHeader0
+{
+    width: 100%;
+    background-image: url("../photos/projects/exowar/exowar.png");
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+h1.linearHeader0,h2.linearHeader0
+{
+    color: lawngreen;
 }
 
-p {
-    /*background-color: rgba(255, 60, 75, 0.1);*/
+div.linearHeader1
+{
+    width: 100%;
+    background-color: lawngreen;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+h1.linearHeader1,h2.linearHeader0
+{
+    color: cornflowerblue;
+}
+
+div.linearHeader2
+{
+    width: 100%;
+    background-color: cornflowerblue;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+h1.linearHeader2,h2.linearHeader0
+{
+    color: violet;
+}
+
+
+div.linearHeader3
+{
+    width: 100%;
+    background-color: violet;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+h1.linearHeader3,h2.linearHeader0
+{
+    color: brown;
+}
+
+div.linearHeader4
+{
+    width: 100%;
+    background-color: brown;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+h1.linearHeader4,h2.linearHeader0
+{
+    color: violet;
+}
+
+div.linearHeader5
+{
+    width: 100%;
+    background-color: deepskyblue;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+h1.linearHeader5,h2.linearHeader5
+{
+    color: gray;
+}
+
+image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+p.linear{
+    color: lightgray;
+    display: inline-block;
     text-align: center;
 }
 
-h1.center {
-    color: navy;
-    text-align: center;
-    margin-left: 20px;
+p{
+    color: lightgray;
 }
 
-h2 {
-    /*background-color: rgba(255, 255, 75, 0.1);*/
-    color: darkred;
-    text-align: center;
-    margin-left: 20px;
-}
-
-
-h3 {
-    /*background-color: rgba(255, 255, 75, 0.1);*/
-    color: navy;
-    text-align: center;
-    margin-left: 20px;
-}
-
-
-p {
-    background-clip:content-box;
-    background-image: url("../photos/background/background1.jpg");
-    /*background-color: rgba(255, 255, 75, 0.1);*/
-    color: darkorange;
-    text-align: center;
-    margin-left: 20px;
-}
+#container {height: 100%; width:100%; font-size: 0;}
+#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 24px;}
+#left {width: 25%; background: transparent;}
+#middle {width: 25%; background: transparent;}
+#right {width: 25%; background: transparent;}
