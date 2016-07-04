@@ -24,7 +24,7 @@ div.linear
     text-align: center;
 }
 
-
+/*for global transparent*/
 div.linearHeaderTransparent
 {
     width: 100%;
@@ -36,7 +36,7 @@ h1.linearHeaderTransparent,h2.linearHeaderTransparent
     color: lightgray;
 }
 
-
+/*Exowar style*/
 div.linearHeaderExowar
 {
     width: 100%;
@@ -52,10 +52,11 @@ h1.linearHeaderExowar,h2.linearHeaderExowar
     color: darkgray;
 }
 
+/*Master of typing style*/
 div.linearHeaderMasterOfTyping
 {
     width: 100%;
-    background-image: url("../photos/projects/masteroftyping/masteroftyping.png");
+    background-image: url("../photos/projects/masteroftyping/screen.png");
     display: inline-block;
     text-align: center;
     background-size: cover;
@@ -67,36 +68,40 @@ h1.linearHeaderMasterOfTyping,h2.linearHeaderMasterOfTyping
     color: darkgray;
 }
 
-div.linearHeaderWizzardSwipe
+/*Wizard swipe style*/
+div.linearHeaderWizardSwipe
 {
     width: 100%;
-    background-image: url("../photos/projects/wizzardswipe/1.png");
+    background-image: url("../photos/projects/wizzardswipe/loadscreen1.png");
     display: inline-block;
     text-align: center;
     background-size: cover;
     position: relative;
     vertical-align: middle;
 }
-h1.linearHeaderWizzardSwipe,h2.linearHeaderWizzardSwipe
+h1.linearHeaderWizardSwipe,h2.linearHeaderWizardSwipe
 {
     color: darkgray;
 }
 
-div.linearHeader1
+/*Game projects style*/
+div.linearHeaderGameProjects
 {
     width: 100%;
-    background-color: darkgray;
+    background-color: goldenrod;
     display: inline-block;
     text-align: center;
     position: relative;
     vertical-align: middle;
 }
-h1.linearHeader1,h2.linearHeaderExowar
+
+h1.linearHeaderGameProjects,h2.linearHeaderGameProjects
 {
     color: darkslategray;
 }
 
-div.linearHeader2
+/*None game projects style*/
+div.linearHeaderNonGameProjects
 {
     width: 100%;
     background-color: cornflowerblue;
@@ -105,54 +110,29 @@ div.linearHeader2
     position: relative;
     vertical-align: middle;
 }
-h1.linearHeader2,h2.linearHeaderExowar
+h1.linearHeaderNonGameProjects,h2.linearHeaderNonGameProjects
 {
     color: darkslategray;
 }
 
 
-div.linearHeader3
+/*Other projects style*/
+div.linearHeaderOtherProjects
 {
     width: 100%;
-    background-color: brown;
+    background-image: url("../photos/projects/gamemixer/Multiply.png");
+    /*background-color: brown;*/
     display: inline-block;
     text-align: center;
     position: relative;
     vertical-align: middle;
 }
-h1.linearHeader3,h2.linearHeaderExowar
+h1.linearHeaderOtherProjects,h2.linearHeaderExowar
 {
     color: darksalmon;
 }
 
-div.linearHeader4
-{
-    width: 100%;
-    background-color: darksalmon;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    vertical-align: middle;
-}
-h1.linearHeader4,h2.linearHeaderExowar
-{
-    color: lightgray;
-}
-
-div.linearHeader5
-{
-    width: 100%;
-    background-color: lightgray;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    vertical-align: middle;
-}
-h1.linearHeader5,h2.linearHeader5
-{
-    color: gray;
-}
-
+/*Global image style*/
 image {
     display: inline-block;
     margin-left: auto;
@@ -161,6 +141,12 @@ image {
     vertical-align: middle;
 }
 
+/*Global "p" style*/
+p{
+    color: lightslategray;
+}
+
+/*Style for linear "p" view*/
 p.linear{
     color: lightgray;
     display: inline-block;
@@ -168,10 +154,7 @@ p.linear{
     vertical-align: middle;
 }
 
-p{
-    color: lightslategray;
-}
-
+/*Last container with contacts*/
 #container {height: 100%; width:100%; font-size: 0;}
 #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 24px;}
 #left {width: 25%; vertical-align: middle; background: transparent;}
