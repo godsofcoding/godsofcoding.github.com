@@ -5,7 +5,7 @@ body,html
 }
 
 html {
-    background: url("../photos/background/background1.png") no-repeat center fixed;
+    background: url("../photos/background/landing_background.png") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -41,7 +41,7 @@ div.personalImage
     background-size: cover;
     position: relative;
     vertical-align: middle;
-    background-image: url("../photos/projects/personal/NEF_9053.jpg");
+    background-image: url("../photos/personal/personal.jpg");
     height:100vh;
 }
 
@@ -71,7 +71,7 @@ h1.linearHeaderExowar,h2.linearHeaderExowar
 div.linearHeaderMasterOfTyping
 {
     width: 100%;
-    /*background-image: url("../photos/projects/masteroftyping/screen.png");*/
+    /*background-image: url("../photos/projects/masteroftyping/mot_screen10.png");*/
     background-color: slategray;
     display: inline-block;
     text-align: center;
