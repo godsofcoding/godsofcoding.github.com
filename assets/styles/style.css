@@ -31,6 +31,20 @@ div.linearHeaderTransparent
     display: inline-block;
     text-align: center;
 }
+
+div.personalImage
+{
+    width: 100%;
+    background-color: darkgray;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    vertical-align: middle;
+    background-image: url("../photos/projects/personal/NEF_9053.jpg");
+    height:100vh;
+}
+
 h1.linearHeaderTransparent,h2.linearHeaderTransparent
 {
     color: lightgray;
@@ -40,7 +54,8 @@ h1.linearHeaderTransparent,h2.linearHeaderTransparent
 div.linearHeaderExowar
 {
     width: 100%;
-    background-image: url("../photos/projects/exowar/exowar.png");
+    background-color: darkslategrey;
+    /*background-1image: url("../photos/projects/exowar/exowar_background.png");*/
     display: inline-block;
     text-align: center;
     background-size: cover;
@@ -56,7 +71,8 @@ h1.linearHeaderExowar,h2.linearHeaderExowar
 div.linearHeaderMasterOfTyping
 {
     width: 100%;
-    background-image: url("../photos/projects/masteroftyping/screen.png");
+    /*background-image: url("../photos/projects/masteroftyping/screen.png");*/
+    background-color: slategray;
     display: inline-block;
     text-align: center;
     background-size: cover;
@@ -72,7 +88,8 @@ h1.linearHeaderMasterOfTyping,h2.linearHeaderMasterOfTyping
 div.linearHeaderWizardSwipe
 {
     width: 100%;
-    background-image: url("../photos/projects/wizzardswipe/loadscreen1.png");
+    background-color: darkgray;
+    /*background-image: url("../photos/projects/wizzardswipe/loadscreen_wide.png");*/
     display: inline-block;
     text-align: center;
     background-size: cover;
@@ -127,6 +144,7 @@ div.linearHeaderOtherProjects
     position: relative;
     vertical-align: middle;
 }
+
 h1.linearHeaderOtherProjects,h2.linearHeaderExowar
 {
     color: darksalmon;
@@ -153,6 +171,65 @@ p.linear{
     text-align: center;
     vertical-align: middle;
 }
+
+
+/*Other projects style*/
+div.linearHeader5
+{
+    width: 100%;
+    background-color: darkslategray;
+    /*background-color: brown;*/
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+/*Other projects style*/
+div.nav
+{
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+ul.nav {
+    text-align: center;
+    vertical-align: middle;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+
+li a {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 
 /*Last container with contacts*/
 #container {height: 100%; width:100%; font-size: 0;}
