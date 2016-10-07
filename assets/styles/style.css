@@ -56,15 +56,17 @@ div.linearHeaderExowar
 {
     display: flex;
     width: 100%;
-    background-color: lightslategray;
-    /*background-1image: url("../photos/projects/exowar/exowar_background.png");*/
+    background-color: #111229;
+    /*background-image: url("../photos/projects/exowar/exowar_background.png");*/
     display: inline-block;
+    height: 1120px;
     text-align: center;
     background-size: cover;
     position: relative;
     vertical-align: middle;
 }
-h1.linearHeaderExowar,h2.linearHeaderExowar
+h1.linearHeaderExowar,
+h2.linearHeaderExowar
 {
     color: darkgray;
 }
@@ -73,6 +75,7 @@ h1.linearHeaderExowar,h2.linearHeaderExowar
 div.linearHeaderMasterOfTyping
 {
     width: 100%;
+    height: 1120px;
     /*background-image: url("../photos/projects/masteroftyping/mot_screen10.png");*/
     background-color: #FFFFFF;
     display: inline-block;
@@ -90,6 +93,7 @@ h1.linearHeaderMasterOfTyping,h2.linearHeaderMasterOfTyping
 div.linearHeaderMobileApps
 {
     width: 100%;
+    /*height: 1120px;*/
     background-color: #3498db;
     /*background-image: url("../photos/projects/wizzardswipe/loadscreen_wide.png");*/
     display: inline-block;
@@ -107,6 +111,7 @@ h1.linearHeaderMobileApps,h2.linearHeaderMobileApps
 div.linearHeaderOtherGameProjects
 {
     width: 100%;
+    height: 560px;
     background-color: #FFFFFF;
     display: inline-block;
     text-align: center;
@@ -123,6 +128,7 @@ h1.linearHeaderOtherGameProjects,h2.linearHeaderOtherGameProjects
 div.linearHeaderNonGameProjects
 {
     width: 100%;
+    height: 560px;
     background-color: #3498db;
     display: inline-block;
     text-align: center;
@@ -139,6 +145,7 @@ h1.linearHeaderNonGameProjects,h2.linearHeaderNonGameProjects
 }
 
 .linearHeaderEmail_background-image:before {
+    height: 720px;
     content: "";
     position: fixed;
     top: 0;
@@ -150,7 +157,6 @@ h1.linearHeaderNonGameProjects,h2.linearHeaderNonGameProjects
     background-image: url("../photos/projects/exowar/exowar_background.png");
     background-size:cover;
     width: 100%;
-    height: 100%;
 
     -webkit-filter: blur(7px);
     -moz-filter: blur(7px);
