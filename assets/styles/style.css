@@ -41,7 +41,7 @@ div.personalImage
     background-size: cover;
     position: relative;
     vertical-align: middle;
-    background-image: url("../photos/personal/personal.jpg");
+    background-image: url("../photos/personal/personal_1.jpg");
     height:100vh;
 }
 
@@ -258,168 +258,165 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+
+
+
+/*ENTER*/
+body {
+    background: #efefef;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #B6B6B6;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-#feedback-page{
-    text-align:left;
+body section {
+    background: white;
+    margin: 60px auto 120px;
+    border-top: 15px solid #313A3D;
+    text-align: center;
+    padding: 50px 0 110px;
+    width: 80%;
+    max-width: 1100px;
 }
 
-#contact {
-    width:100%;
-    float:left;
-    padding-top:0px;
+body section h1 {
+    margin-bottom: 40px;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
 
-#form-div {
-    background-color:rgba(72,72,72,0.2);
-    padding-left:35px;
-    padding-right:35px;
-    padding-top:35px;
-    padding-bottom:50px;
+form {
+    width: 58.33333%;
+    margin: 0 auto;
+}
 
+form .field {
+    width: 100%;
     position: relative;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
+    margin-bottom: 15px;
 }
 
-.feedback-input {
-    color:#3c3c3c;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:300;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #fbfbfb;
-    padding: 13px 13px 13px 54px;
-    width:100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
+form .field label {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #313A3D;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 1.45em;
+    letter-spacing: 0.075em;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
 }
 
-.feedback-input:focus{
-    background: #fff;
-    box-shadow: 0;
-    border: 3px solid #3498db;
-    color: #3498db;
+form .field label + span {
+    font-family: 'SSStandard';
+    opacity: 0;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 7%;
+    font-size: 2.5em;
+    text-shadow: 1px 2px 0 #cd6302;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"],
+form .field textarea {
+    border: none;
+    background: #E8E9EA;
+    width: 80.5%;
+    margin: 0;
+    padding: 18px 0;
+    padding-left: 19.5%;
+    color: #313A3D;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+    height: 18px;
+    resize: none;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"]:focus, form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
     outline: none;
-    padding: 13px 13px 13px 54px;
 }
 
-.focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+    padding-bottom: 150px;
 }
 
-#name{
-    background-image: url(../photos/UI/name.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+    width: 18%;
+    background: #FD9638;
+    color: #313A3D;
 }
 
-#name:focus{
-    background-image: url(../photos/UI/name.svg);
-    background-size: 30px 30px;
-    background-position: 8px 5px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+    color: #FD9638;
 }
 
-#email{
-    background-image: url(../photos/UI/email.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+form .field:hover label {
+    width: 18%;
+    background: #313A3D;
+    color: white;
 }
 
-#email:focus{
-    background-image: url(../photos/UI/email.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+form input[type="submit"] {
+    background: #FD9638;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 13px 50px;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
 }
 
-#comment{
-    background-image: url(../photos/UI/comment.svg);
-    background-size: 30px 30px;
-    background-position: 11px 8px;
-    background-repeat: no-repeat;
+form input[type="submit"]:hover {
+    background: #313A3D;
+    color: #FD9638;
 }
 
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:none;
+form input[type="submit"]:focus {
+    outline: none;
+    background: #cd6302;
 }
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-    background-color:white;
-}
-
-#button-blue{
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    float:left;
-    width: 100%;
-    border: #fbfbfb solid 4px;
-    cursor:pointer;
-    background-color: #3498db;
-    color:white;
-    font-size:24px;
-    padding-top:22px;
-    padding-bottom:22px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-}
-
-#button-blue:hover{
-    background-color: rgba(0,0,0,0);
-    color: #0493bd;
-}
-
-.submit:hover {
-    color: #3498db;
-}
-
-.ease {
-    width: 0px;
-    height: 74px;
-    background-color: #fbfbfb;
-    -webkit-transition: .3s ease;
-    -moz-transition: .3s ease;
-    -o-transition: .3s ease;
-    -ms-transition: .3s ease;
-    transition: .3s ease;
-}
-
-.submit:hover .ease{
-    width:100%;
-    background-color:white;
-}
-
-@media only screen and (max-width: 580px) {
-    #form-div{
-        left: 3%;
-        margin-right: 3%;
-        width: 88%;
-        margin-left: 0;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-}
-
 
 /*Last container with contacts*/
 #container {height: 100%; width:100%; font-size: 0;}
